@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityDocuments">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityDocuments" >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        tools:context=".MainActivityDocuments" >
+        <TextView
+            android:id="@+id/doc_page_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:textSize="35dp"
+            android:ems="30"
+            android:textStyle="bold"
+            android:text="Tutor Helper" />
+        <TextView
+            android:id="@+id/doc_page_title_id_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="24dp"
+            android:ems="30"
+            android:text="Documents" />
+        <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadButton_doc"
+            android:text="Upload File" /> -->
+
+        <TextView
+            android:id="@+id/home_page_title_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="16dp"
+            android:ems="30"
+            android:text="Connect to Googe Drive to share files.\nYou will need to have the latest Google Drive installed and an approved Gmail account to log in." />
+        <EditText
+            android:id="@+id/file_title_edittext"
+            android:layout_height="48dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:id="@+id/doc_content_edittext"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/file_title_edittext"
+            android:layout_above="@id/btn_layout" />
+
+        <LinearLayout
+            android:id="@+id/btn_layout"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/open_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Open" />
+
+            <Button
+                android:id="@+id/create_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Create" />
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/query_btn"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Query" />
+
+        </LinearLayout>
+        <!-- <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/downloadButton_doc"
+            android:text="Download File" /> -->
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/backButton_doc"
+            android:text="Go Back" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            tools:context=".MainActivityDocuments" >
+            <ListView
+                android:id="@+id/mobile_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final_Project_djones54</string>
+    <string name="input_placeholder">Write a message</string>
+    <string name="source_google_drive">Google Drive</string>
+    <string name="start_drive">Start Google Drive</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="status_logged_out">Logged Out</string>
+    <string name="status_logged_in">Logged In</string>
+    <string name="status_user_cancelled">User Cancelled</string>
+    <string name="status_error">We found a problem: %1$s</string>
+    <string name="not_open_file">Could not open file</string>
+    <string name="agora_app_id">52cf7e6f35c14d1285dadd289b24dc70</string>
+    <string name="agora_access_token">00652cf7e6f35c14d1285dadd289b24dc70IAC8I6QGF6BHxno4AtYkvSdvLQQNX4J4QcAcVUwkvwJ0HuIVUyEAAAAAEABC7KpCkLTUXwEAAQCOtNRf</string>
+</resources>

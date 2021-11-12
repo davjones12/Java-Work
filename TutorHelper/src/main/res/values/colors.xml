@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35915A</color>
+    <color name="colorPrimaryDark">#205837</color>
+    <color name="colorAccent">#F3AE14</color>
+	<!-- Chat Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+<!-- Logs -->
+    <color name="logInfo">#4a90e2</color>
+    <color name="logWarn">#fedd56</color>
+    <color name="logError">#fe375f</color>
+</resources>
