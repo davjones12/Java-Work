@@ -1,0 +1,11 @@
+INSERT INTO PROJECT VALUES ('ProductX','1','Bellaire','5'); 
+INSERT INTO PROJECT VALUES ('ProductY','2','Sugarland','5'); 
+INSERT INTO PROJECT VALUES ('ProductZ','3','Houston','5'); 
+INSERT INTO PROJECT VALUES ('Computerization','10','Stafford','4'); 
+INSERT INTO PROJECT VALUES ('Reorganization','20','Houston','1'); 
+INSERT INTO PROJECT VALUES ('Newbenefits','30','Stafford','4'); 
+INSERT INTO PROJECT VALUES ('OperatingSystems','61','Jacksonville','6'); 
+INSERT INTO PROJECT VALUES ('DatabaseSystems','62','Birmingham','6'); 
+INSERT INTO PROJECT VALUES ('Middleware','63','Jackson','6'); 
+INSERT INTO PROJECT VALUES ('InkjetPrinters','91','Phoenix','7'); 
+INSERT INTO PROJECT VALUES ('LaserPrinters','92','LasVegas','7');
